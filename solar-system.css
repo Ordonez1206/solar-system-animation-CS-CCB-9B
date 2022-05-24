@@ -1,0 +1,119 @@
+
+
+html 
+{
+	background-image: url(img/space.jpeg);
+}
+
+body 
+{
+	font: 18px Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+#title
+{
+	color: white;
+}
+
+#content
+{
+	background-image: url(img/suntexture.jpeg);
+	padding: 16px;
+	border: 2px solid white;
+	margin: 0px 30px;
+	border-radius: 4px;
+	min-height: 600px;
+	margin-bottom: 25px;
+}
+
+
+.star, .planet, .background-venus, .background-mercury, .background-earth, .background-mars, .background-jupiter, .background-saturn, .background-uranus, .background-neptune
+{
+    border-radius: 50%;
+    position: fixed;
+   	border: 0px solid #000000;
+}
+
+.star
+{
+	border: 0px solid #000000;
+    width:1662px;
+    height:1662px;
+    left:65%;
+    top:40%;
+	background-image: url(img/suntexture.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.planet
+{
+	position: fixed;
+    width:50px;
+    height:50px;
+}
+
+.background-venus
+{
+	background-image: url(img/venus.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-mercury
+{
+	background-image: url(img/mercury.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-earth
+{
+	background-image: url(img/earth.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-mars
+{
+	background-image: url(img/mars.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-jupiter
+{
+	background-image: url(img/jupiter.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-saturn
+{
+	background-image: url(img/saturn.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-uranus
+{
+	background-image: url(img/uranus.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-neptune
+{
+	background-image: url(img/neptune.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
